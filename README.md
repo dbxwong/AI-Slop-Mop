@@ -268,7 +268,7 @@ Slop rules synthesized and reworded from the header sources; base skill petergya
 
 ## Attribution
 
-Slop rules synthesized and reworded, not copied, from:
+Slop rules synthesized, from:
 
 - petergyang/no-ai-slop (MIT)
 - xr0zv/no-ai-slop
