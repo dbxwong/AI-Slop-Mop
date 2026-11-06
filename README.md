@@ -1,6 +1,10 @@
-# AI-Slop-Mop
+# AI-Slop-Mop — v6
 
-A writing skill for LLM agents. Three agents handle two jobs: producing clean prose, and checking that the argument inside it actually holds. Most de-slop tools stop at word choice. This one adds a check for whether the reasoning is sound, because a paragraph can be free of every AI tell and still not follow from its own premises.
+## What's new in v6
+
+v6 adds the shared Planner / Doer / Checker swarm (see `SWARM.md`): a Planner up front, a bounded loop (max 3 iterations, named terminal states), and a Checker that runs Slop-Mop, Minto and MECE, the Heilmeier Catechism, and the Veteran test. A Metrics Agent defines success metrics before work starts. A Red Team Council of domain mixture of experts then tries to break the draft as a final adversarial gate. A Deeper Not Larger layer with a Blind Spot Audit keeps each revision denser, not longer, and a Sociotechnical Analyst sits on the Red Team for work prompts. The 62 rules and 17 leaps are unchanged. The operative prompt is in `SKILL.md`.
+
+A writing skill for LLM agents. Four roles handle two jobs: producing clean prose, and checking that the argument inside it actually holds. Most de-slop tools stop at word choice. This one adds a check for whether the reasoning is sound, because a paragraph can be free of every AI tell and still not follow from its own premises.
 
 ## The three agents
 
